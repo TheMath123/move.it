@@ -1,0 +1,56 @@
+.container {
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    grid-template-areas: 'menu pages';
+    height: 100vh;
+}
+
+.containerMenu {
+    background: linear-gradient( var(--white), transparent);
+    width: 7rem;
+    height: 100vh;
+
+    grid-area: menu;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contentLogo {
+    position: fixed;
+    top: 2rem;
+}
+.contentMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 1rem;
+}
+
+.contentMenu button{
+    width: 100%;
+    border: 4px solid transparent;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentMenu button:hover {
+    border-left: 4px solid var(--blue);
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+
+.pages {
+    grid-area: pages;
+}
+
+.leaderboard {
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
