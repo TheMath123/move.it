@@ -24,9 +24,8 @@
 }
 
 .headerLeaderboard {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     
     color: var(--text);
     font-size: 0.87rem;
@@ -36,6 +35,19 @@
     text-transform: uppercase;
 
     margin-bottom: 1.5rem;
+}
+.headerLeftSide {
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.headerRightSide {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 118px;
+    margin-right: 5.4rem;
 }
 
 .construction {
