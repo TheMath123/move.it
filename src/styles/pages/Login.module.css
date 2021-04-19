@@ -1,0 +1,134 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--blue);
+    width: 100vw;
+    height: 100vh;
+}
+
+@media(max-width:1180px){
+    .container {
+        width: max-content;
+        min-height: auto;
+    }
+}
+
+/* Simbolo */
+.contentSymbol {
+    display: flex;
+    align-items: center;
+}
+
+.contentSymbol img{
+    width: 90vh;
+}
+
+/* Login */
+.contentLogin {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.boxLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boxLogin span{
+    margin: 6rem 0 1.25rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.btnGithub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+    width: 318px;
+
+    background: transparent;
+    border: none;
+}
+
+.btnGithub p{
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+
+    font-weight: 500;
+    color: var(--text-highlight);
+    line-height: 1.8rem;
+}
+
+.btnGithub:hover p{
+    color: var(--white);
+}
+
+.btnGithub svg:hover path {
+    fill: #FFFFFF;
+}
+
+
+.boxInputLogin{
+    margin-top: 2.5rem;
+    /* width: 420px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boxInputLogin button{
+    width: 80px;
+    height: 80px;
+
+    font-size: 1.5rem;
+
+    background: var(--blue-dark);
+    border: 0;
+    border-radius: 0 5px 5px 0;
+
+    justify-content: center;
+}
+
+.boxInputLogin button:hover {
+    filter: brightness(95%);
+}
+
+
+.boxInputLogin input{
+
+    height: 80px;
+    width: 340px;
+
+    padding-left: 30px;
+    justify-content: center;
+
+    color: var(--white);
+
+    border: 0;
+    border-radius: 5px 0 0 5px;
+
+    background-image: linear-gradient(to right,var(--blue-dark), var(--blue));
+
+    transition: filter 0.2;
+}
+
+
+.boxInputLogin input::placeholder{
+    color: var(--text-highlight);
+}
+
+.errorM {
+    display: none;
+    margin-top: 1rem;
+    color: var(--red);
+    font-size: 1rem;
+    font-weight: 600;
+}
