@@ -31,4 +31,5 @@ moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora 
 Execute está sequencia de comandos no seu terminal:
 1. ```git clone https://github.com/TheMath123/move.it.git```
 2. ```yarn install```
-3. ```yarn dev```
+3. ```yarn build```
+4. ```yarn start```
