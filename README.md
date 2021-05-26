@@ -1,5 +1,5 @@
 # move.it
-Projeto feito na NextLevelWeek#04 2021.
+Projeto feito na NextLevelWeek#04 2021 da Rocketseat.
 
 moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora lá! =)
 
