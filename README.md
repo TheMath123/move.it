@@ -5,6 +5,13 @@ moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora 
 
 ---
 
+### Prinicipais Tecnologias Utilizada
+- NextJS - React Framwork para Frontend
+- SASS -  Sass é a linguagem de extensão CSS
+- Vercel - Hospedagem de aplicações fronend, da própria empresa que mantem o NextJS 
+
+---
+
 #### Aplicação em funcionamento
 [Clique aqui para acessar](https://moveit-henna-two.vercel.app/)
 
