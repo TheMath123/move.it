@@ -7,9 +7,10 @@ moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora 
 ---
 
 ## 	:test_tube: Tecnologias
-- NextJS - React Framwork para Frontend
-- SASS -  Sass é a linguagem de extensão CSS
-- Vercel - Hospedagem de aplicações fronend, da própria empresa que mantem o NextJS 
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org/)
+- [NextJS](https://nextjs.org/)
+- [SASS](https://sass-lang.com/)
 
 ---
 
