@@ -6,7 +6,7 @@ moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora 
 
 ---
 
-## 	:test_tube: Tecnologias
+## :test_tube: Tecnologias
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://reactjs.org/)
 - [NextJS](https://nextjs.org/)
@@ -14,7 +14,7 @@ moveit é um aplicação para ajudar programadores preguiçoso a se mexer. Bora 
 
 ---
 
-## 	:fire: Em produção
+## :fire: Em produção
 [Clique aqui para acessar](https://moveit-henna-two.vercel.app/)
 
 ![alt text](https://i.imgur.com/u29NkcG.png)
